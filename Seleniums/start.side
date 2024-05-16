@@ -1,0 +1,110 @@
+{
+  "id": "17651604-6b62-494a-bdf8-0fca708436b5",
+  "version": "2.0",
+  "name": "start",
+  "url": "http://10.2.5.251",
+  "tests": [{
+    "id": "552c8895-4b11-40be-ab3d-c375df52f6f2",
+    "name": "start_net",
+    "commands": [{
+      "id": "5a419b07-c0f0-4a18-998a-7f11f1aaef5a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9cc552a-00e9-46ec-90d7-36237d8e7903",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1032x995",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba4fac40-0eb8-4d0f-8530-8fd237ae3dd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edit_lobo_cell:nth-child(2)",
+      "targets": [
+        ["css=.edit_lobo_cell:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='DDDDD'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='edit_body']/div[3]/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a6360dd-a998-4e9c-bc89-06db7aa7b38c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.edit_lobo_cell:nth-child(2)",
+      "targets": [
+        ["css=.edit_lobo_cell:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='DDDDD'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='edit_body']/div[3]/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/input[2]", "xpath:position"]
+      ],
+      "value": "TS22060150P31"
+    }, {
+      "id": "fc06e5a4-f75d-442f-8e71-86cff067d7e2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.edit_lobo_cell:nth-child(3)",
+      "targets": [
+        ["css=.edit_lobo_cell:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@name='upass'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='edit_body']/div[3]/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/input[3]", "xpath:position"]
+      ],
+      "value": "WDSRwdsr19990704"
+    }, {
+      "id": "c99432ee-a61b-4f72-96db-c4cdab3ab12d",
+      "comment": "",
+      "command": "click",
+      "target": "name=ISP_select",
+      "targets": [
+        ["name=ISP_select", "name"],
+        ["css=.edit_select", "css:finder"],
+        ["xpath=//select[@name='ISP_select']", "xpath:attributes"],
+        ["xpath=//div[@id='edit_body']/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50014522-5d3c-494b-8054-257b708534fe",
+      "comment": "",
+      "command": "select",
+      "target": "name=ISP_select",
+      "targets": [],
+      "value": "label=中国移动"
+    }, {
+      "id": "2ae4a571-a65b-490b-b662-a899e4bd70f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.edit_lobo_cell:nth-child(1)",
+      "targets": [
+        ["css=.edit_lobo_cell:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='0MKKey'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='edit_body']/div[3]/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "615ea6fa-d265-4c10-a734-5feb9a8899b2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "345fb08b-437f-4260-af34-1d9460eaa745",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["552c8895-4b11-40be-ab3d-c375df52f6f2"]
+  }],
+  "urls": ["http://10.2.5.251/"],
+  "plugins": []
+}
